@@ -528,6 +528,21 @@ const PREGUNTAS = [
     ]
   },
   {
+  id: 'terminales_pago',
+  tipo: 'multi',
+  requerido: true,
+  max: 5,
+  texto: '¿Qué terminales de pago utilizás actualmente en tu comercio?',
+  opciones: [
+    { valor: 'Getnet' },
+    { valor: 'Payway' },
+    { valor: 'Clover' },
+    { valor: 'Nave' },
+    { valor: 'Viumi' },
+    { valor: 'Otra', otro: true }
+  ]
+},
+  {
     id: 'pct_ventas_digitales',
     tipo: 'single',
     requerido: true,
